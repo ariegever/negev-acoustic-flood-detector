@@ -1,0 +1,33 @@
+# Trained artifacts (regenerate with notebooks/02_yamnet_training.ipynb)
+*.tflite
+*.keras
+*.h5
+embeddings.npy
+labels.npy
+class_labels.json
+
+# Raw / downloaded audio datasets
+raw_audio/
+*.mp3
+*.wav
+
+# Device-generated runtime logs (keep the curated one under data/logs/)
+device/log.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets — never commit API keys
+.env
+*.key

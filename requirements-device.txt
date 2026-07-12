@@ -1,0 +1,6 @@
+# Minimal runtime for the UNIHIKER (Python 3.7, TensorFlow 2.7 environment).
+# The board ships with a TF/tflite stack; install only what the runtime loop needs.
+# detect.py imports tflite_runtime if present, else falls back to tensorflow.lite.
+tflite-runtime; platform_machine != "x86_64"
+sounddevice
+numpy

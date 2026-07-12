@@ -1,0 +1,10 @@
+# Training & analysis environment (Google Colab or desktop, Python 3.10+)
+tensorflow>=2.12
+tensorflow-hub>=0.14
+librosa>=0.10
+numpy>=1.23
+scikit-learn>=1.2
+matplotlib>=3.6
+seaborn>=0.12
+pandas>=1.5
+requests>=2.28
