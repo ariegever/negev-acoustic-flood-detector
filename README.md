@@ -173,8 +173,18 @@ Ben-Gurion University of the Negev — The Jacob Blaustein Institutes for Desert
 Key sources are listed in full in the project report (`docs/report/`): Bansal & Garg (2022);
 Jesudhas & Ranjan (2024); Liu et al. (2025); Saber et al. (2015); De Sousa et al. (2025).
 
-## License
+## Academic Project Notice
 
-Code is released under the MIT License (see [`LICENSE`](LICENSE)). Note that the downloaded audio
-clips are governed by their own FreeSound licenses (the collector filters for Creative Commons 0),
-and YAMNet is Google's model under its own terms.
+This repository contains a final course project developed at
+Ben-Gurion University of the Negev (course 001-2-5074, The Jacob
+Blaustein Institutes for Desert Research), by Arie Kobylansky,
+Nitzan Hahamov, and Noam Budin.
+
+It is shared publicly for demonstration and portfolio purposes.
+All rights reserved by the authors. The code and report are not
+licensed for reuse, redistribution, or modification without the
+authors' permission.
+
+Third-party components retain their own terms: YAMNet is Google's
+model (Apache 2.0), and audio clips used in training are sourced
+from FreeSound.org under Creative Commons 0.
