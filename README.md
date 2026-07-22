@@ -115,10 +115,10 @@ script (default `/root/flood_detector`), then run it. The script records 3 s chu
 touchscreen, and appends a row to `log.csv` every 15 s.
 
 ```bash
-python3 detect.py
+python3 detect_final_3sec_sampling.py
 ```
 
-Key runtime constants at the top of `detect.py`:
+Key runtime constants at the top of `detect_final_3sec_sampling.py`:
 
 | Constant | Value | Meaning |
 |----------|-------|---------|
