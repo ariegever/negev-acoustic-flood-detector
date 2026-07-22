@@ -51,7 +51,7 @@ negev-acoustic-flood-detector/
 │   ├── 02_yamnet_training.ipynb        # Extract YAMNet embeddings, train the dense head, export TFLite
 │   └── 03_bathroom_monitoring_plots.ipynb  # Analysis/figures for the indoor validation run
 ├── device/
-│   └── detect.py                       # On-device real-time inference + touchscreen UI + CSV logging
+│   └── detect_final_3sec_sampling.py                       # On-device real-time inference + touchscreen UI + CSV logging
 ├── models/
 │   └── README.md                       # How to produce the .tflite files (not checked into git)
 ├── data/
