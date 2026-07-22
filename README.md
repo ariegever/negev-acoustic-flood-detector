@@ -170,7 +170,7 @@ Ben-Gurion University of the Negev — The Jacob Blaustein Institutes for Desert
 
 ## References
 
-Key sources are listed in full in the project report (`docs/report/`): Bansal & Garg (2022);
+Key sources are listed in full in the project report (`docs/`): Bansal & Garg (2022);
 Jesudhas & Ranjan (2024); Liu et al. (2025); Saber et al. (2015); De Sousa et al. (2025).
 
 ## Academic Project Notice
