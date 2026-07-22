@@ -108,7 +108,7 @@ trains the dense head, and exports:
 
 See [`models/README.md`](models/README.md) for details. These files are **not** committed to git.
 
-### 3 · Deploy — `device/detect.py`
+### 3 · Deploy — `device/detect_final_3sec_sampling.py`
 Copy the two `.tflite` files and `class_labels.json` to the UNIHIKER under the path set in the
 script (default `/root/flood_detector`), then run it. The script records 3 s chunks with
 `sounddevice`, runs inference in a background thread, shows live per-class probability bars on the
